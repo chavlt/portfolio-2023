@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+        url("../assets/fonts/Poppins-SemiBold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Syne";
+    src: local("Syne"),
+        url("../assets/fonts/Syne-VariableFont_wght.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Deglion";
+    src: local("Deglion"),
+        url("../assets/fonts/deglion-deglion-400.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter"),
+        url("../assets/fonts/Inter-VariableFont_slnt,wght.ttf") format('ttf');
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+.heading-1{
+    font-family: 'Deglion', serif;
+    font-size: 60px;
+    line-height: 100%;
+    font-weight: 400;
+}
+
+.text{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 160%;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.link{
+    color: #815BB2;
+}

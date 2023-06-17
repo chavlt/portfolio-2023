@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="/src/styles.scss">
+    <script type="module" src="src/index.js"></script>
+    <title>Charlène Villiette - Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__image-content">
+        <img class="header__image-mobile-bg" src="assets/images/bg-mobile.png">
+        <img class="header__image-bg" src="assets/images/bg.png">
+      </div>
+      
+      <div class="header__nav">
+        <div class="header__logo">
+          <p class="header__logo-title">C</p>
+        </div>
+    
+        <div class="header__menu">
+          <div class="header__menu-container">
+            <p class="header__menu-icon"></p>
+          </div>
+
+          <div class="header__menu-nav menu">
+            <div class="menu__close"></div>
+            <ul class="menu__links">
+              <li class="menu__link">Accueil<img class="sticker" src="assets/images/sticker-3.png"></li>
+              <li class="menu__link">Projets<img class="sticker" src="assets/images/sticker-4.png"></li>
+              <li class="menu__link">Galerie<img class="sticker" src="assets/images/sticker-2.png"></li>
+            </ul>
+            <div class="menu__social-medias-links">
+              <a class="menu__social-medias-link" href="#">Instagram</a>
+              <a class="menu__social-medias-link" href="#">Linkedin</a>
+              <a class="menu__social-medias-link" href="#">Soundcloud</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="header__title-content">
+        <p class="header__title-name">Charlène Villiette</p>
+        <div class="header__portfolio-content">
+          <p id="port" class="header__title-portfolio">port</p>
+          <p id="folio" class="header__title-portfolio">folio</p>
+        </div>
+        <p class="header__title-year">2023</p>
+        <img id="sticker-1" class="header__sticker-star" src="assets/images/stickers-etoile.png">
+        <img id="sticker-2" class="header__sticker-star" src="assets/images/star-1.png">
+        <img id="sticker-3" class="header__sticker-star" src="assets/images/star-2.png">
+        <img id="sticker-4" class="header__sticker-dev" src="assets/images/stickers-dev.png">
+      </div>
+    </header>
+
+    <img class="IMAGE-TEST" src=""></div>
+  
+    <div class="presentation container">
+      <div class="presentation__text-content">
+        <h1 class="heading-1">Hello 👋🏼</h1>
+        <p class="text">
+          Tout juste diplômée d'une licence professionnelle en développement web, j'ai aussi décroché une licence profesionnelle en Webdesign (2021) ainsi qu'un DUT Métiers du Multimédia et de l'Internet (2020). <br><br>
+  
+          Après plusieurs alternances en tant que conceptrice multimédia, webdesigner et développeuse front-end, c'est finalement dans le développement web que j'ai choisi de m'épanouir en rejoignant à temps plein l'équipe de <a class="link" href="https://www.lugus.agency/">Lugus</a>, l'agence d'expert Shopify où j'ai fait mon alternance.
+        </p>
+      </div>
+      <div class="presentation__image-content">
+        <img class="presentation__image" src="assets/images/a-propos.png">
+        <img class="presentation__sticker-1" src="assets/images/sticker-4.png">
+        <img class="presentation__sticker-2" src="assets/images/sticker-5.png">
+      </div>
+    </div>
+  
+    <div class="projects">
+      <div class="projects__title section-header container">
+        <h1 class="heading-1">Derniers projets</h1>
+        <div class="section-header__btn">
+          <p class="text">voir tous les projets</p>
+          <img class="icon-arrow" src="assets/arrow.svg">
+        </div>
+      </div>
+  
+      <div class="projects__slider-container">
+        <div class="projects__slider">
+          <div class="projects__slide">
+            <div class="slide__image-container">
+              <div class="slide__tags">
+                <div class="slide__tag"></div>
+              </div>
+              <img class="slide__image" src="assets/images/projets/tikibowl/carte-visite-2.png">
+            </div>
+            <div class="slide__text-content">
+              <div class="slide__title-container">
+                <h2 class="slide__title"></h2>
+                <span class="slide__year"></span>
+              </div>
+              <p class="text"></p>
+            </div>
+            <a href="#" class="slide__see-project"><img class="icon-arrow" src="assets/arrow.svg"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <div class="gallery__title section-header container">
+        <h1 class="heading-1">Galerie</h1>
+        <div class="section-header__btn">
+          <p class="text">voir toute la galerie</p>
+          <img class="icon-arrow" src="assets/arrow.svg">
+        </div>
+      </div>
+    </div>
+
+
+    <script type="module" src="src/js/menu.js"></script>
+    <script type="module" src="src/js/slider.js"></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+@import 'scss/reset';
+@import 'scss/homepage';
+@import 'scss/general';
+@import 'scss/fonts';
+@import 'scss/slider';
+
+/* COLORS 
+
+Purple light : #E9E5F0;
+Purple 1 : #D1C3E8;
+Purple 2 : #A997CE;
+Purple dark : #6D588E;
+*/
+
+.hidden{
+    visibility: hidden;
+}
+
+
+/* .projects__slide{
+    height: 100%;
+    width: 100%;
+}
+
+.projects__slider{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+
+.projects__slider{
+    height: 100%;
+    width: auto;
+}
+ */
+.flickity-viewport{
+    height: 100% !important;
+}
+
+body, html{
+    overflow-x: hidden;
+}
